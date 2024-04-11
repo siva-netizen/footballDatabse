@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: burlywood; /* Dark background color */
+}
+
+.message-box {
+    color: #fdd835; /* Glowing yellow text color */
+    background-color: #333; /* Dark box color */
+    border: 1px solid #fdd835; /* Glowing yellow border */
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(253, 216, 53, 0.8); /* Glowing yellow effect */
+}
+
+.success-message {
+    background-color: blue; /* Dark green for success */
+    color: wheat;
+}
+
+.error-message {
+    background-color: blueviolet; /* Dark red for error */
+}
+
+/* Additional message box styles */
+.second-message-box {
+    margin-top: 20px; /* Adjust as needed */
+    color: #fff; /* Text color for the second box */
+    background-color: darkorange; /* Background color for the second box */
+    border: 1px solid #ff9800; /* Border color for the second box */
+    box-shadow: 0 0 20px rgba(255, 152, 0, 0.8); /* Box shadow for the second box */
+}

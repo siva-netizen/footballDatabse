@@ -1,0 +1,61 @@
+/* Neon Button Theme */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    background: url('images/starry-night.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8); /* Neon blue border */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    animation: fadeIn 1s ease-in;
+}
+
+.tabs {
+    display: flex;
+    margin-top: 20px;
+    border-bottom: 2px solid rgba(0, 255, 255, 0.8); /* Neon blue border for tabs */
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: border 0.5s ease;
+}
+
+.tab:hover {
+    border-color: rgba(0, 255, 255, 0.8); /* Neon blue border on hover */
+}
+
+img {
+    width: 300px;
+    height: auto;
+    opacity: 0.8;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 2%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

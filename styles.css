@@ -1,0 +1,45 @@
+body {
+    background-color: rgba(255, 255, 255, 0.7); /* Transparent white background */
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    border: 3px solid #ff1744; /* Reddish glowing border */
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+img {
+    width: 150px; /* Set the width as needed */
+    height: auto;
+    opacity: 0.8;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+h1 {
+    color: #ff1744; /* Reddish glowing text color */
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    border: 2px solid #ff1744; /* Reddish glowing border for tabs */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.tab:hover {
+    background-color: #ff1744; /* Reddish glowing background on hover */
+    color: #fff; /* Text color on hover */
+}

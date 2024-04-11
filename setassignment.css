@@ -1,0 +1,28 @@
+/* Glowing Red Box Style */
+.glowing-red-box {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8); /* Glowing red shadow */
+}
+
+/* Input Style */
+.glowing-red-box input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #fff; /* White border for better visibility */
+    border-radius: 5px;
+}
+
+/* Submit Button Style */
+.glowing-red-box input[type="submit"] {
+    background-color: #ff0000; /* Red background */
+    color: #fff; /* White text color */
+    cursor: pointer;
+}
+
+.glowing-red-box input[type="submit"]:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}

@@ -1,0 +1,78 @@
+.glowing-box {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.8); /* Glowing blue shadow */
+}
+
+/* Title Style */
+.glowing-box h2 {
+    color: #007bff; /* Glowing blue color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow around the text */
+}
+/* Form Style within Glowing Box */
+.glowing-box form {
+
+    margin-top: 15px; /* Adjust the margin as needed */
+}
+
+/* Apply the style to both insert and delete forms */
+.insert-form, .delete-form {
+    display: block;
+}
+
+/* Apply the glowing box style to both forms */
+.insert-form, .delete-form {
+    /* Apply the glowing box style */
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(3, 3, 90, 0.8); /* Glowing blue shadow */
+}
+
+/* Title Style */
+.glowing-box h2 {
+    color: #007bff; /* Glowing blue color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow around the text */
+}
+/* Additional Input Styles within Glowing Box */
+.glowing-box input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #007bff; /* Glowing blue border for inputs */
+    border-radius: 5px;
+}
+
+/* Override the background-color for better visibility */
+.glowing-box input[type="date"] {
+    background-color: #fff;
+}
+
+/* Override the default button styles */
+.glowing-box input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.glowing-box input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+/* Submit Button Styles within Glowing Box */
+.glowing-box button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.glowing-box button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}

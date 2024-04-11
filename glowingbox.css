@@ -1,0 +1,14 @@
+/* Glowing Box Style */
+.glowing-box {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.8); /* Glowing blue shadow */
+}
+
+/* Title Style */
+.glowing-box h2 {
+    color: #007bff; /* Glowing blue color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow around the text */
+}
